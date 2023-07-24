@@ -12,7 +12,7 @@ const SolutionCard = () => {
             <p>About</p>
             <h1>The Best Solution<br/>For Your Company</h1>
             <p>Lorem Ipsum is simply<br/>dummy text of the printing.</p>
-            <span>
+            <span id='readNow'>
                 <p>Read Now →</p>
             </span>
         </div>

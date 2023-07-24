@@ -34,7 +34,7 @@
   flex-direction: column;
   gap: 15px;
   padding-top: 6rem;
-
+  justify-content: center;
 }
 
 .right-container > p:first-child {
@@ -67,7 +67,7 @@
   color: #595959;
 }
 
-.right-container > span > p {
+#readNow > p {
     margin-top: 30px;
   font-family: "Poppins", sans-serif;
   font-size: 20px;

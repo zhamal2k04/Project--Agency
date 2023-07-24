@@ -3,6 +3,7 @@ import "./HomePage.css"
 import MainCard from '../components/mainCard/mainCard'
 import SocialLinks from '../components/SocialLinks/socialLinks'
 import SolutionCard from '../components/solutionCard/solutionCard'
+import LowerText from '../components/lowerText/LowerText'
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
         <MainCard/>
         <SocialLinks/>
         <SolutionCard/>
+        <LowerText/>
     </div>
   )
 }
