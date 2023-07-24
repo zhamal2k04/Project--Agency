@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage-container{
+    margin-top: 0;
+    width: 100%;
+}
+body{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
