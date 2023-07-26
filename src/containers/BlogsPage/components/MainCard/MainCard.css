@@ -6,6 +6,7 @@
 }
 
 .MainCard-container {
+  margin-top: 10rem;
   width: 100%;
   height: 714px;
   display: flex;
@@ -14,13 +15,14 @@
 }
 
 .maincardLeft-container {
-  width: 634px;
-  height: 714px;
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 15px 0px 0px 15px;
   background: #6546BE;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .maincardRight-container {
@@ -30,6 +32,7 @@
   background-size: cover;
   background-position: center;
   border-radius: 0px 20px 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .lowerContent-text {
