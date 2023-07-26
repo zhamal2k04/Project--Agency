@@ -35,3 +35,16 @@
   line-height: 24px;
   letter-spacing: 0.07px;
 }
+
+.navbar-container>ul>a{
+  color: #191919;
+  text-decoration: none;
+  transform: scale(1);
+  transition: .5s ease-out;
+}
+
+.navbar-container>ul>a:hover{
+  cursor: pointer;
+  color: #cacaca;
+  transform:scale(1.1);
+}
