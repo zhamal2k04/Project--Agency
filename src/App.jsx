@@ -5,6 +5,7 @@ import HomePage from './containers/HomePage/container/HomePage';
 import BlogsPage from './containers/BlogsPage/container/BlogsPage';
 import AboutPage from './containers/AboutPage/container/AboutPage';
 import SalePage from './containers/SalePage/container/SalePage';
+import LoginPage from './containers/LoginPage/LoginPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/blog' element={<BlogsPage/>}/>
           <Route path='/about' element={<AboutPage/>} />
           <Route path='/sale' element={<SalePage/>} />
+          <Route path='/login' element={<LoginPage/>}/>
         </Routes>
       </MyLayout>
     </div>
