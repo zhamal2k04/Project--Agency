@@ -1,5 +1,5 @@
 import React from 'react'
-import loginImg from "../../components/Images/login.jpg"
+import loginImg from "../../../components/Images/login.jpg"
 import {FcGoogle} from 'react-icons/fc'
 import {AiFillFacebook} from "react-icons/ai"
 

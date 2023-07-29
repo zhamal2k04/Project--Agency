@@ -5,7 +5,7 @@ import HomePage from './containers/HomePage/container/HomePage';
 import BlogsPage from './containers/BlogsPage/container/BlogsPage';
 import AboutPage from './containers/AboutPage/container/AboutPage';
 import SalePage from './containers/SalePage/container/SalePage';
-import LoginPage from './containers/LoginPage/LoginPage';
+import LoginPage from './containers/LoginPage/container/LoginPage';
 
 function App() {
   return (
