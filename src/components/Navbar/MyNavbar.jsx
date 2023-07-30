@@ -6,7 +6,9 @@ import {FaUserAlt} from "react-icons/fa"
 const MyNavbar = () => {
   return (
     <div className='navbar-container'>
-        <img src={bgImg} alt="bgImg" />
+       <Link to={"/home"}>
+            <img src={bgImg} alt="bgImg" />
+       </Link>
         <ul>
             <Link to={"/home"}>Home</Link>
             <Link to={"/about"}>About</Link>
