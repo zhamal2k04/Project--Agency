@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import {getAuth, FacebookAuthProvider} from "firebase/auth"
 
-const firebaseConfig = {
+const firebaseConfig_2 = {
   apiKey: "AIzaSyAlSD_Ncvi1lW5ZIGOOy32zEOpqZB8RmfM",
   authDomain: "project-agency-99ba2.firebaseapp.com",
   projectId: "project-agency-99ba2",
@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app2 = initializeApp(firebaseConfig);
+const app2 = initializeApp(firebaseConfig_2);
 const auth2 = getAuth(app2);
 const provider2 = new FacebookAuthProvider();
 
