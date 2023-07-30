@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Project--Agency/static/css/main.4e4c1773.css",
+    "main.js": "/Project--Agency/static/js/main.e01e6ccc.js",
+    "static/media/bg-about.jpg": "/Project--Agency/static/media/bg-about.ad8efd6ce35ac9157c23.jpg",
+    "static/media/login.jpg": "/Project--Agency/static/media/login.3b155d0d3624657bc746.jpg",
+    "static/media/bg-homepage.png": "/Project--Agency/static/media/bg-homepage.1b2b6cbb48546f88e2f3.png",
+    "static/media/bg-About.png": "/Project--Agency/static/media/bg-About.070f77abcaee348c277b.png",
+    "static/media/bg-MainCard.png": "/Project--Agency/static/media/bg-MainCard.b1739fb401358dad56b5.png",
+    "static/media/rightContainerImg.png": "/Project--Agency/static/media/rightContainerImg.ad76723a63bf565d3884.png",
+    "static/media/team-2.png": "/Project--Agency/static/media/team-2.06b37958510e4d02b17d.png",
+    "static/media/team-1.png": "/Project--Agency/static/media/team-1.e42ad110406e49b28299.png",
+    "static/media/newsImg2.png": "/Project--Agency/static/media/newsImg2.4d9191600fa35afb2992.png",
+    "static/media/bgImg.png": "/Project--Agency/static/media/bgImg.de9a0b030eb194f81345.png",
+    "static/media/newsImg.png": "/Project--Agency/static/media/newsImg.d75cdc925e8b57e2fe66.png",
+    "static/media/categoriesPic-3.png": "/Project--Agency/static/media/categoriesPic-3.27b9b7d49ed84d287e05.png",
+    "static/media/categoriesPic-1.png": "/Project--Agency/static/media/categoriesPic-1.fa9dc192a6a127341f00.png",
+    "static/media/categoriesPic-4.png": "/Project--Agency/static/media/categoriesPic-4.fb16a9da5cd71a579020.png",
+    "static/media/categoriesPic-2.png": "/Project--Agency/static/media/categoriesPic-2.dc4cd93cc98657d41088.png",
+    "static/media/bg-lowerCard.png": "/Project--Agency/static/media/bg-lowerCard.7b56e859fd3d09c4bcfd.png",
+    "static/media/webflow.png": "/Project--Agency/static/media/webflow.c71a6d8b5bc973a56a6a.png",
+    "static/media/fbook.png": "/Project--Agency/static/media/fbook.5f6bfe5346027bece67f.png",
+    "index.html": "/Project--Agency/index.html",
+    "main.4e4c1773.css.map": "/Project--Agency/static/css/main.4e4c1773.css.map",
+    "main.e01e6ccc.js.map": "/Project--Agency/static/js/main.e01e6ccc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4c1773.css",
+    "static/js/main.e01e6ccc.js"
+  ]
+}
