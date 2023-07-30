@@ -14,6 +14,8 @@ const MyNavbar = () => {
             <Link to={"/about"}>About</Link>
             <Link to={"/blog"}>Blog</Link>
             <Link to={"/sale"}>Sale</Link>
+            <Link to={"/locations"}>Locations</Link>
+            <Link to={"/contact-us"}>Contact Us</Link>
             <Link to={"/login"}><FaUserAlt className='relative items-center justify-center'/></Link>
         </ul>
     </div>

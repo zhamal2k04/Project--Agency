@@ -6,6 +6,8 @@ import BlogsPage from './containers/BlogsPage/container/BlogsPage';
 import AboutPage from './containers/AboutPage/container/AboutPage';
 import SalePage from './containers/SalePage/container/SalePage';
 import LoginPage from './containers/LoginPage/container/LoginPage';
+import LocationsPage from './containers/LocationsPage/container/LocationsPage';
+import ContactUs from './containers/ContactUs/container/ContactUs';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path='/about' element={<AboutPage/>} />
           <Route path='/sale' element={<SalePage/>} />
           <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/locations' element={<LocationsPage/>}/>
+          <Route path='/contact-us' element={<ContactUs/>}/>
         </Routes>
       </MyLayout>
     </div>
