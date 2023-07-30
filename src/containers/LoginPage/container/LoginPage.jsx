@@ -1,8 +1,9 @@
 import React from 'react'
 import loginImg from "../../../components/Images/login.jpg"
-import {FcGoogle} from 'react-icons/fc'
-import {AiFillFacebook} from "react-icons/ai"
 import { useEffect, useState } from 'react'
+import SignIn from '../GoogleSignIn/SignIn'
+import SigninIn from '../FacebookSignIn/Signin'
+
 
 const LoginPage = () => {
     const [name, setName] = useState('')
@@ -60,7 +61,7 @@ const LoginPage = () => {
     const submitHandler = (e) =>{
         e.preventDefault()
         console.log(`Login & Password: ${name}\nPassword: ${password}`);
-        window.location.replace('#/home')
+        window.location.replace('https://zhamal2k04.github.io/Project--Agency#/home')
     }
 
   return (
@@ -75,8 +76,8 @@ const LoginPage = () => {
             <form className='max-w-[400px] w-full mx-auto bg-white p-8'>
                 <h2 className='text-4xl font-bold text-indigo-900 text-center py-4'>Join Us Now !</h2>
                 <div className='flex justify-between py-8'>
-                    <p className='border shadow-lg hover:shadow-xl cursor-pointer px-6 py-2 relative flex items-center'><FcGoogle className='mr-2'/> Google</p>
-                    <p className='border shadow-lg hover:shadow-xl cursor-pointer px-6 py-2 relative flex items-center'><AiFillFacebook className='mr-2'/> Facebook</p>
+                    <SignIn/>
+                    <SigninIn/>
                 </div>
                 <div className='flex flex-col mb-4 '>
                     <label className='font-medium text-lg tracking-widest'>Username:</label>
