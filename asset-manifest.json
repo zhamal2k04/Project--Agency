@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Project--Agency/static/css/main.f17c058f.css",
-    "main.js": "/Project--Agency/static/js/main.cba4d1aa.js",
+    "main.css": "/Project--Agency/static/css/main.86cf61e0.css",
+    "main.js": "/Project--Agency/static/js/main.87519228.js",
     "static/media/bg-about.jpg": "/Project--Agency/static/media/bg-about.ad8efd6ce35ac9157c23.jpg",
     "static/media/login.jpg": "/Project--Agency/static/media/login.3b155d0d3624657bc746.jpg",
     "static/media/bg-homepage.png": "/Project--Agency/static/media/bg-homepage.1b2b6cbb48546f88e2f3.png",
@@ -18,14 +18,15 @@
     "static/media/categoriesPic-4.png": "/Project--Agency/static/media/categoriesPic-4.fb16a9da5cd71a579020.png",
     "static/media/categoriesPic-2.png": "/Project--Agency/static/media/categoriesPic-2.dc4cd93cc98657d41088.png",
     "static/media/bg-lowerCard.png": "/Project--Agency/static/media/bg-lowerCard.7b56e859fd3d09c4bcfd.png",
+    "static/media/amanda.jpg": "/Project--Agency/static/media/amanda.ea456fb8109e886ef9c0.jpg",
     "static/media/webflow.png": "/Project--Agency/static/media/webflow.c71a6d8b5bc973a56a6a.png",
     "static/media/fbook.png": "/Project--Agency/static/media/fbook.5f6bfe5346027bece67f.png",
     "index.html": "/Project--Agency/index.html",
-    "main.f17c058f.css.map": "/Project--Agency/static/css/main.f17c058f.css.map",
-    "main.cba4d1aa.js.map": "/Project--Agency/static/js/main.cba4d1aa.js.map"
+    "main.86cf61e0.css.map": "/Project--Agency/static/css/main.86cf61e0.css.map",
+    "main.87519228.js.map": "/Project--Agency/static/js/main.87519228.js.map"
   },
   "entrypoints": [
-    "static/css/main.f17c058f.css",
-    "static/js/main.cba4d1aa.js"
+    "static/css/main.86cf61e0.css",
+    "static/js/main.87519228.js"
   ]
 }
