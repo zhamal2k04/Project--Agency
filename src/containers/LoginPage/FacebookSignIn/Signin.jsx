@@ -8,7 +8,7 @@ import {AiFillFacebook} from "react-icons/ai"
 const SigninIn = () => {
     const [value, setValue] = useState('')
 
-    const handleClick = () =>{
+    const handleClick2 = () =>{
         signInWithPopup(auth2,provider2).then((result) =>{
             setValue(result.user);
             localStorage.setItem('UserID', result.user.providerData[0].uid)
@@ -26,7 +26,7 @@ const SigninIn = () => {
     return (
     <div>
         {value ? <LogOut/> :
-            <button onClick={handleClick} className='border shadow-lg hover:shadow-xl cursor-pointer px-6 py-2 relative flex items-center'><AiFillFacebook className='mr-2'/>Facebook</button>
+            <button onClick={handleClick2} className='border shadow-lg hover:shadow-xl cursor-pointer px-6 py-2 relative flex items-center'><AiFillFacebook className='mr-2'/>Facebook</button>
         }
     </div>
   )
