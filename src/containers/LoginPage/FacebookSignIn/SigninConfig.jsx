@@ -11,8 +11,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const provider = new FacebookAuthProvider();
+const app2 = initializeApp(firebaseConfig);
+const auth2 = getAuth(app2);
+const provider2 = new FacebookAuthProvider();
 
-export { auth, provider };
+export { auth2, provider2 };

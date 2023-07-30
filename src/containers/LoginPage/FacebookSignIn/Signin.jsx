@@ -1,15 +1,15 @@
 import React from 'react'
-import {auth, provider} from "./SigninConfig"
+import {auth2, provider2} from "./SigninConfig"
 import { signInWithPopup } from 'firebase/auth'
 import { useState,useEffect } from 'react'
 import LogOut from './Logout/LogOut'
 import {AiFillFacebook} from "react-icons/ai"
 
 const SigninIn = () => {
-    const [value, setValue] = useState(null)
+    const [value, setValue] = useState('')
 
     const handleClick = () =>{
-        signInWithPopup(auth,provider).then((result) =>{
+        signInWithPopup(auth2,provider2).then((result) =>{
             setValue(result.user);
             localStorage.setItem('UserID', result.user.providerData[0].uid)
             window.location.replace('https://zhamal2k04.github.io/Project--Agency#/home')

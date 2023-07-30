@@ -74,10 +74,12 @@ const LoginPage = () => {
 
         <div className='flex justify-center items-center h-full'>
             <form className='max-w-[400px] w-full mx-auto bg-white p-8'>
-                <h2 className='text-4xl font-bold text-indigo-900 text-center py-4'>Join Us Now !</h2>
-                <div className='flex justify-between py-8'>
+                <div className='flex flex-col justify-between py-8'>
+                <h2 className='text-3xl font-bold text-indigo-900 text-center py-4'>Join Us Now !</h2>
+                   <div className='flex flex-row items-center justify-between py-8'>
                     <SignIn/>
                     <SigninIn/>
+                   </div>
                 </div>
                 <div className='flex flex-col mb-4 '>
                     <label className='font-medium text-lg tracking-widest'>Username:</label>
