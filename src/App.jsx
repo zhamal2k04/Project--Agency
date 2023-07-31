@@ -8,6 +8,7 @@ import SalePage from './containers/SalePage/container/SalePage';
 import LoginPage from './containers/LoginPage/container/LoginPage';
 import LocationsPage from './containers/LocationsPage/container/LocationsPage';
 import ContactUs from './containers/ContactUs/container/ContactUs';
+import LocationCard from './containers/ContactUs/components/LocationCard/LocationCard';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/login' element={<LoginPage/>}/>
           <Route path='/locations' element={<LocationsPage/>}/>
           <Route path='/contact-us' element={<ContactUs/>}/>
+          <Route path='/ex' element={<LocationCard/>}/>
         </Routes>
       </MyLayout>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import MainCenterCard from '../components/MainCenterCard'
+import MainCenterCard from '../components/MainCenterCard/MainCenterCard'
 import "./ContactUs.css"
 
 const ContactUs = () => {
