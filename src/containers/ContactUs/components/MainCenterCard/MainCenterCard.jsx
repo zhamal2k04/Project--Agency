@@ -1,7 +1,8 @@
 import React from 'react'
 import "./MainCenterCard.css"
 import amanda from "../../../../components/Images/amanda.jpg"
-// import LeafLet from '../LocationCard/LocationCard'
+import LeafLet from '../LocationCard/LocationCard'
+
 const MainCenterCard = () => {
   return (
     <div className='mainCenterCard-container'>
@@ -26,7 +27,7 @@ const MainCenterCard = () => {
                 </form>
             </div>
             <div className="rightComponent">
-                {/* <LeafLet/> */}
+                <LeafLet/>
             </div>
         </div>
     </div>
