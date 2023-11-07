@@ -22,6 +22,7 @@
 }
 
 .navbar-container > ul {
+  align-items: center;
   display: flex;
   flex-direction: row;
   gap: 32px;

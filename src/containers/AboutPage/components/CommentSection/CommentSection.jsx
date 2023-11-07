@@ -1,23 +1,25 @@
 import React from 'react'
 import "./CommentSection.css"
 import fiveStar from "../../../../components/Images/fiveStar.png"
+import { useTranslation } from 'react-i18next'
 
 const CommentSection = () => {
+    const {t} = useTranslation()
   return (
       <div className="commentSection">
-            <span><h1>What People Say</h1></span>
+            <span><h1>{t("whatPeopleSay")}</h1></span>
                 <div className="sectionHandler">
                     <div className="leftSection">
                         <img src={fiveStar} alt="fiveStar" />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                        <h1>Sandra Robert</h1>
-                        <span><p>YouTube</p></span>
+                        <p>{t("lorem")}</p>
+                        <h1>{t('commentName')}</h1>
+                        <span><p>{t("youtube")}</p></span>
                     </div>
                     <div className="rightSection">
                     <img src={fiveStar} alt="fiveStar" />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                        <h1>Oliver Charlotte</h1>
-                        <span><p>Twitch</p></span> 
+                        <p>{t("lorem")}</p>
+                        <h1>{t("commentName2")}</h1>
+                        <span><p>{t("twitch")}</p></span> 
                     </div>
                 </div>
         </div>

@@ -58,11 +58,7 @@ const LoginPage = () => {
     }
 
 
-    const submitHandler = (e) =>{
-        e.preventDefault()
-        console.log(`Login & Password: ${name}\nPassword: ${password}`);
-        window.location.replace('https://zhamal2k04.github.io/Project--Agency#/home')
-    }
+
 
   return (
     
@@ -73,7 +69,7 @@ const LoginPage = () => {
 
 
         <div className='flex justify-center items-center h-full'>
-            <form className='max-w-[400px] w-full mx-auto bg-white p-8'>
+            <form action='/api' method='post' className='max-w-[400px] w-full mx-auto bg-white p-8'>
                 <div className='flex flex-col justify-between py-8'>
                 <h2 className='text-3xl font-bold text-indigo-900 text-center py-4'>Join Us Now !</h2>
                    <div className='flex flex-row items-center justify-between py-8'>
@@ -84,16 +80,16 @@ const LoginPage = () => {
                 <div className='flex flex-col mb-4 '>
                     <label className='font-medium text-lg tracking-widest'>Username:</label>
                     {(nameDirty && nameError) && <div className='font-bold text-red-700 '>{nameError}</div>}
-                    <input onChange={e => nameHandler(e)} value={name} onBlur={e => blurHandler(e)} className='border relative bg-gray-100 p-2 font-mono italic mt-3' type="text" name='name' placeholder='e.g John Wick'/>
+                    <input name="email" type="email" onChange={e => nameHandler(e)} value={name} onBlur={e => blurHandler(e)} className='border relative bg-gray-100 p-2 font-mono italic mt-3' placeholder='e.g John Wick'/>
                 </div>
                 <div className='flex flex-col mb-4 '>
                     <label className='font-medium text-lg tracking-widest'>Password:</label>
                     {(passwordDirty && passwordError) && <div className='font-bold text-red-700 '>{passwordError}</div>}
-                    <input onChange={e => passwordHandler(e)} value={password} onBlur={e => blurHandler(e)} className='border relative bg-gray-100 p-2 font-mono italic mt-3' type="password" name='password' placeholder='e.g 12345678'/>
+                    <input name='password' type='password' onChange={e => passwordHandler(e)} value={password} onBlur={e => blurHandler(e)} className='border relative bg-gray-100 p-2 font-mono italic mt-3' placeholder='e.g 12345678'/>
                 </div>
-                <button onClick={submitHandler} disabled={!formValid} className='w-full py-3 mt-8 bg-indigo-600 hover:bg-indigo-500 relative text-white' type='submit'>Sign In</button>
+                <button disabled={!formValid} className='w-full py-3 mt-8 bg-indigo-600 hover:bg-indigo-500 relative text-white' type='submit'>Sign Up</button>
                 <p className='flex items-center mt-2 font-bold font-sans'><input className='mr-2' type="checkbox" />Remember Me</p>
-                <p className='text-center mt-8'>Not a member? <span className='text-center underline font-mono text-blue-500 font-bold'>Sign up now!</span></p>
+                <p className='text-center mt-8'>Not a member? <span className='text-center underline font-mono text-blue-500 font-bold'>Register now!</span></p>
             </form>
         </div>
     </div>

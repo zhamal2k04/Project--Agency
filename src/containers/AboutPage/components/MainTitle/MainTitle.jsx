@@ -1,21 +1,15 @@
 import React from "react";
 import "./MainTitle.css"
+import { useTranslation } from "react-i18next";
 
 const MainTitle = () => {
+  const {t} = useTranslation()
   return (
     <div className="MainTitle">
       <div className="aboutPage-leftContainer">
-        <h1>About Us</h1>
+        <h1>{t('aboutUsTitle')}</h1>
         <p>
-          Founded in 2010, we are a creative agency that produces lasting
-          <br />
-          results for our clients. We've partnered with many startups,
-          <br />
-          corporations, and nonprofits alike to craft designs that make real
-          <br />
-          impact. We're always looking forward to creating brands, products,
-          <br />
-          and digital experiences that connect with our clients' audiences.
+         {t("aboutUsText")}
         </p>
       </div>
       <div className="aboutPage-rightContainer"></div>
