@@ -20,9 +20,11 @@
   display: flex;
   flex-direction: column;
   border-radius: 15px 0px 0px 15px;
-  background: #6546BE;
+  background: #6546be;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .maincardRight-container {
@@ -32,12 +34,15 @@
   background-size: cover;
   background-position: center;
   border-radius: 0px 20px 20px 0px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .lowerContent-text {
   width: 445px;
-  height: 260px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .lowerContent-text > h1 {
@@ -52,6 +57,17 @@
 }
 .lowerContent-text > p {
   margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  z-index: 2;
+}
+
+.lowerContent-text > span {
+  margin-top: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;

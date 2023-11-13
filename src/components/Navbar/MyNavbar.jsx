@@ -12,14 +12,14 @@ const MyNavbar = () => {
        <Link to={"/home"}>
             <img src={bgImg} alt="bgImg" />
        </Link>
-        <ul>
-            <LanguageSelector/>
+        <ul style={{fontFamily: "Public Sans, sans-serif" }}>
             <Link to={"/home"}>{t('home')}</Link>
             <Link to={"/about"}>{t('about')}</Link>
             <Link to={"/blog"}>{t('blog')}</Link>
             <Link to={"/sale"}>{t('sale')}</Link>
             <Link to={"/contact-us"}>{t('contact')}</Link>
             <Link to={"/login"}><FaUserAlt className='relative items-center justify-center'/></Link>
+            <LanguageSelector/>
         </ul>
     </div>
   )

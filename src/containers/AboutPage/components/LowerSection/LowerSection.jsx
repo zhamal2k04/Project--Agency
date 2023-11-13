@@ -1,16 +1,18 @@
 import React from 'react'
 import "./LowerSection.css"
+import { useTranslation } from 'react-i18next';
 
 
 const LowerSection = () => {
+  const { t } = useTranslation();
   return (
     <div className='lowerSection-container'>
         <div className="leftedSection">
-            <p>Let's Talk</p>
-            <h1>About Your <br/>Next Project</h1>
+            <p>{t("lowerTitle")}</p>
+            <h1>{t("lowerSubtTitle")}</h1>
         </div>
         <div className="rightedSection">
-            <button>Get In Touch</button>
+            <button>{t("btnSentence")}</button>
         </div>
     </div>
   )

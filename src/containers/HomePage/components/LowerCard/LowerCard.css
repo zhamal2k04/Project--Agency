@@ -6,7 +6,7 @@
 }
 
 .lowerCard-container {
-    margin-top: 60px;
+  margin-top: 60px;
   width: 100%;
   height: 600px;
   background-color: green;
@@ -47,6 +47,7 @@
   font-weight: 700;
   line-height: 36px;
   color: #191919;
+  width: 450px;
 }
 
 .lowerCard_leftContainer > p {
@@ -56,9 +57,10 @@
   font-weight: 400;
   line-height: 24px;
   color: #595959;
+  width: 270px;
 }
 
-.lowerCard_rightContainer>img{
-    width: 450px;
-    height: 90%;
+.lowerCard_rightContainer > img {
+  width: 450px;
+  height: 90%;
 }

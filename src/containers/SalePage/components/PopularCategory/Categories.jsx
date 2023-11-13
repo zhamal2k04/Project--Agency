@@ -1,10 +1,12 @@
 import React from 'react'
 import "./Categories.css"
+import { useTranslation } from 'react-i18next'
 
 const PopCategories = () => {
+  const { t } = useTranslation();
   return (
     <div className='categories-container'>
-          <span><h1>Popular Categories</h1></span>
+          <span><h1>{t("pplrCategories")}</h1></span>
           <div className="categoriesHandler">
               <div className="categoriesLeft-section">
                   <section></section>

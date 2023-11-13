@@ -10,7 +10,7 @@
 #language-select {
   background-color: #333; /* Цвет фона селектора */
   color: #fff; /* Цвет текста в селекторе */
-  border: 2px solid #ffcc00; /* Граница селектора */
+  border: 2px solid #443dc4; /* Граница селектора */
   border-radius: 4px; /* Скругление углов */
   padding: 8px; /* Внутренний отступ */
   font-size: 16px; /* Размер шрифта */
@@ -23,7 +23,7 @@
 
 /* Стиль для селектора языка при наведении */
 #language-select:hover {
-  background-color: #ffcc00; /* Цвет фона при наведении */
+  background-color: #5852d6; /* Цвет фона при наведении */
   border-color: #333; /* Цвет границы при наведении */
   color: #333; /* Цвет текста при наведении */
 }

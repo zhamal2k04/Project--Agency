@@ -1,16 +1,18 @@
 import React from 'react';
 import "./LowerCard.css";
 import rightContainerImg from "../../../../components/Images/rightContainerImg.png"
+import { useTranslation } from 'react-i18next';
 
 const LowerCard = () => {
+  const {t} = useTranslation()
   return (
     <div className='lowerCard-container'>
         <div className="lowerCard_leftContainer">
-            <h2>Features</h2>
-            <h1>Contact Me To Get<br/>Your Work Done</h1>
-            <p>Lorem Ipsum is simply dummy<br/>text of the printing.</p>
+            <h2>{t("feature")}</h2>
+            <h1>{t("contactUs")}</h1>
+            <p>{t("cardSubTitle")}</p>
             <span id='readNow'>
-                <p>Read Now →</p>
+                <p>{t("readNow")} →</p>
             </span>
         </div>
         <div className="lowerCard_rightContainer">

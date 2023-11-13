@@ -18,7 +18,6 @@ function LanguageSelector() {
         value={i18n.language}
       >
         <option value="en">EN</option>
-        <option value="uz">UZ</option>
         <option value="ru">RU</option>
       </select>
     </div>

@@ -1,19 +1,21 @@
 import React from 'react'
 import "./solutionCard.css"
 import cardbgImg from "../../../../components/Images/bgImg.png"
+import { useTranslation } from 'react-i18next'
 
 const SolutionCard = () => {
+  const { t } = useTranslation() 
   return (
     <div className='solutionCard-container'>
         <div className="left-container">
             <img src={cardbgImg} alt="cardBgimg" />
         </div>
         <div className="right-container">
-            <p>About</p>
-            <h1>The Best Solution<br/>For Your Company</h1>
-            <p>Lorem Ipsum is simply<br/>dummy text of the printing.</p>
+            <p>{t("about")}</p>
+            <h1>{t("cardTitle")}</h1>
+            <p>{t("cardSubTitle")}</p>
             <span id='readNow'>
-                <p>Read Now →</p>
+                <p>{t("readNow")} →</p>
             </span>
         </div>
     </div>
